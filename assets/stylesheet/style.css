@@ -1,0 +1,67 @@
+@import url("./nav.css");
+@import url("./projects.css");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  background-color: red;
+  height: 100%;
+  min-height: 100%;
+}
+.intro-back {
+  background-color: red;
+  padding: 20px;
+  height: 100%;
+  min-height: 100%;
+  display: flex;
+}
+.one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.438);
+  border-radius: 20px;
+}
+.one:hover {
+  color: white;
+  background-color: rgba(5, 5, 5, 0.507);
+  border-radius: 20px;
+}
+.intro-card {
+  width: 100%;
+}
+.div-right {
+  width: 50%;
+  background: gray;
+}
+
+.wrapper-two {
+  margin-top: 20px;
+  height: 100%;
+  min-height: 100%;
+  display: flex;
+}
+
+.my-avatar img {
+  height: 200px;
+  border-radius: 50%;
+}
+
+.inner-box {
+  padding: 20px;
+}
+h3 {
+  font-size: 30px;
+}
+li {
+  font-size: 25px;
+}
+.avtar-below {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
