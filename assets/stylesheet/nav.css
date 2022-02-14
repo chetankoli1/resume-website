@@ -26,23 +26,6 @@
   color: white;
 }
 
-.rightNav {
-  width: 50%;
-  text-align: right;
-}
-
 .background {
   background: rgba(255, 255, 255, 0.363);
-}
-
-.rightNav button {
-  padding: 10px;
-  margin: 0px 10px;
-  border-radius: 40%;
-  width: 20%;
-}
-
-.rightNav button:hover {
-  background-color: #000;
-  color: #fff;
 }
